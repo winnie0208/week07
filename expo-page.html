@@ -1,10 +1,117 @@
----
-title: 2020 台味設計展
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<!-- start Menu -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2020 台味設計展</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+  <body>
+    <!-- start Header -->
+    <div class="header py-8">
+      <div class="container-md">
+        <a href="index.html" class="text-center d-block"><h1 class="font-24 text-secondary mb-0">EXHIBINECTION</h1></a>
+        <ul class="header-nav d-flex align-items-center position-absolute end-0 top-0 mb-0">
+          <li class="d-none d-md-block"><a href="#" class="font-16 text-dark">Sign in</a></li>
+          <li class="d-none d-md-block ms-8"><a href="#" class="font-16 text-dark">Sign up</a></li>
+          <li class="ms-8">
+            <a class="btn font-16 text-dark message-bubble" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <span class="material-icons">confirmation_number</span>
+            </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <!-- start Offcanvas -->
+    <div class="expo-card-list offcanvas offcanvas-end bg-black p-8" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white" id="offcanvasExampleLabel">Cart List</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="card-list px-0" >
+          <li class="list-item card mb-3">
+            <button type="button" class="btn-close" aria-label="Close"></button>
+            <div class="card-body pt-0 px-6 pb-6">
+              <div class="card-content d-flex justify-content-between">
+                <div class="card-info d-flex">
+                  <div class="card-image image expo-1 me-4"></div>
+                  <div class="card-expo-intro me-5a">
+                    <h6 class="font-16 mb-1">2020 台味設計展</h6>
+                    <div class="font-16 mb-1">01 JUN — 31 OCT</div>
+                    <div class="font-16 mb-3a">全票</div>
+                    <div>NT$350</div>
+                  </div>
+                </div>
+                <div class="card-expo-ticket-amount d-flex flex-column flex-sm-row justify-content-center align-items-center">
+                  <button class="btn font-24">+</button>
+                  <div class="px-3">1</div>
+                  <button class="btn font-24">-</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-item card mb-3">
+            <button type="button" class="btn-close" aria-label="Close"></button>
+            <div class="card-body pt-0 px-6 pb-6">
+              <div class="card-content d-flex justify-content-between">
+                <div class="card-info d-flex">
+                  <div class="card-image image expo-2 me-4"></div>
+                  <div class="card-expo-intro me-5a">
+                    <h6 class="font-16 mb-1">2020 台味設計展</h6>
+                    <div class="font-16 mb-1">01 JUN — 31 OCT</div>
+                    <div class="font-16 mb-3a">全票</div>
+                    <div>NT$350</div>
+                  </div>
+                </div>
+                <div class="card-expo-ticket-amount d-flex flex-column flex-sm-row justify-content-center align-items-center">
+                  <button class="btn font-24">+</button>
+                  <div class="px-3">1</div>
+                  <button class="btn font-24">-</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-item card mb-3">
+            <button type="button" class="btn-close" aria-label="Close"></button>
+            <div class="card-body pt-0 px-6 pb-6">
+              <div class="card-content d-flex justify-content-between">
+                <div class="card-info d-flex">
+                  <div class="card-image image expo-3 me-4"></div>
+                  <div class="card-expo-intro me-5a">
+                    <h6 class="font-16 mb-1">2020 台味設計展</h6>
+                    <div class="font-16 mb-1">01 JUN — 31 OCT</div>
+                    <div class="font-16 mb-3a">全票</div>
+                    <div>NT$350</div>
+                  </div>
+                </div>
+                <div class="card-expo-ticket-amount d-flex flex-column flex-sm-row justify-content-center align-items-center">
+                  <button class="btn font-24">+</button>
+                  <div class="px-3">1</div>
+                  <button class="btn font-24">-</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="offcanvas-footer d-flex justify-content-between align-items-center p-4">
+        <div class="text-white">小計 NT$1050</div>
+        <a href="list-1.html" class="btn btn-light text-secondary px-7">前往結帳</a>
+      </div>
+      </div>
+    </div>
+    <!-- end Offcanvas -->
+    <!-- end Header -->
+    <!-- start Menu -->
 <div class="menu border-top border-bottom border-dark" data-aos="fade-up">
     <ul class="container-md d-flex py-3a justify-content-center mb-0">
       <li><a href="#" class="text-dark font-16 text-center me-4a">音樂</a></li>
@@ -148,3 +255,35 @@ current: index
     </div>
 </footer>
 <!-- end Footer -->
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+      });
+    </script>
+  </body>
+</html>
