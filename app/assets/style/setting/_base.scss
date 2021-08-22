@@ -1,0 +1,46 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    position: relative;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+ul, ol{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+span, a{
+    vertical-align: middle;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+//*Fonts*//
+h1{
+    font-family: Arial ,sans-serif; 
+    font-size: 24px;
+    line-height: 24px;
+}
+h2{
+    font-family: "Roboto", "Noto Sans TC",sans-serif; 
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+}
+h3{
+    font-family: "Roboto", "Noto Sans TC",sans-serif; 
+    font-size: 20px;
+    line-height: 30px;
+}
+p,a,li,div{
+    font-family: "Roboto", "Noto Sans TC",sans-serif; 
+    font-size: 20px;
+    line-height: 30px;
+}
+a,a:hover{
+    color: $dark;
+}

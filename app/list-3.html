@@ -1,0 +1,164 @@
+---
+title: 填寫付款資訊
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<!-- start Main -->
+<div class="list-3 border-top border-dark">
+    <div class="container">
+        <!-- start Step-progress -->
+        <div class="row step-progress mt-5 mb-5 mb-md-8" data-aos="fade-right">
+            <div class="col-md-8">
+                <div class="step-line"></div>
+                <ul class="step-group d-flex justify-content-between px-0 mb-0">
+                    <li class="d-flex flex-column align-items-center">
+                        <div class="dot done mb-1"></div>
+                        <div class="step-content font-16 text-center">確認<br>訂單</div>
+                    </li>
+                    <li class="d-flex flex-column align-items-center">
+                        <div class="dot done mb-1"></div>
+                        <div class="step-content font-16 text-center">填寫<br>訂購資訊</div>
+                    </li>
+                    <li class="d-flex flex-column align-items-center">
+                        <div class="dot done mb-1"></div>
+                        <div class="step-content font-16 text-center fw-bold ">填寫<br>付款資訊</div>
+                    </li>
+                    <li class="d-flex flex-column align-items-center">
+                        <div class="dot undo mb-1"></div>
+                        <div class="step-content font-16 text-center">完成<br>訂購</div>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <!-- end Step-progress -->
+        <!-- start Content -->
+        <div class="content row d-flex flex-column-reverse flex-md-row justify-content-md-between">
+            <!-- start Order-cards -->
+            <div class="list-step col-md-8  col-lg-6 mb-12 mb-md-0 d-flex flex-column" data-aos="fade-right">
+                <ul class="ordered-card-group px-0">
+                    <li class="ordered-card d-flex align-items-center justify-content-between justify-content-md-start mb-5">
+                        <div class="order-image image expo-1 me-md-4 me-lg-7a"></div>
+                        <div class="order-expo-info me-md-4 me-lg-7a">
+                            <div class="order-header">
+                                <h3 class="font-16 fw-bold mb-1">2020 台味設計展</h3>
+                            </div>
+                            <div class="expo-date font-16 mb-1">01 JUN — 31 OCT</div>
+                            <div class="order-ticket d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="ticket-style font-16 text-dark me-1 me-md-0">全票</div>
+                                    <div class="ticket-num d-block d-md-none">1</div>
+                                </div>
+                                <div class="order-ticket-price fw-bold d-block d-md-none">NT$350</div>
+                            </div>
+                            
+                        </div>
+                        <div class="order-ticket-price fw-bold d-none d-md-block me-md-4 me-lg-7a">
+                            NT$350
+                        </div>
+                        <div class="order-ticket-num fw-bold d-none d-md-flex align-items-center ms-auto">
+                            <div class="px-3">1</div>
+                        </div>
+                    </li>
+                    <li class="ordered-card d-flex align-items-center justify-content-between justify-content-md-start mb-5">
+                        <div class="order-image image expo-2 me-md-4 me-lg-7a"></div>
+                        <div class="order-expo-info me-md-4 me-lg-7a">
+                            <div class="order-header">
+                                <h3 class="font-16 fw-bold mb-1">No.22 線上設計展</h3>
+                            </div>
+                            <div class="expo-date font-16 mb-1">01 JUN — 31 OCT</div>
+                            <div class="order-ticket d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="ticket-style font-16 text-dark me-1 me-md-0">全票</div>
+                                    <div class="ticket-num d-block d-md-none">1</div>
+                                </div>
+                                <div class="order-ticket-price fw-bold d-block d-md-none">NT$350</div>
+                            </div>
+                            
+                        </div>
+                        <div class="order-ticket-price fw-bold d-none d-md-block me-md-4 me-lg-7a">
+                            NT$350
+                        </div>
+                        <div class="order-ticket-num fw-bold d-none d-md-flex align-items-center ms-auto">
+                            <div class="px-3">1</div>
+                        </div>
+                    </li>
+                    <li class="ordered-card d-flex align-items-center justify-content-between justify-content-md-start mb-5">
+                        <div class="order-image image expo-3 me-md-4 me-lg-7a"></div>
+                        <div class="order-expo-info me-md-4 me-lg-7a">
+                            <div class="order-header">
+                                <h3 class="font-16 fw-bold mb-1">高雄設計節</h3>
+                            </div>
+                            <div class="expo-date font-16 mb-1">01 JUN — 31 OCT</div>
+                            <div class="order-ticket d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="ticket-style font-16 text-dark me-1 me-md-0">全票</div>
+                                    <div class="ticket-num d-block d-md-none">1</div>
+                                </div>
+                                <div class="order-ticket-price fw-bold d-block d-md-none">NT$350</div>
+                            </div>
+                            
+                        </div>
+                        <div class="order-ticket-price fw-bold d-none d-md-block me-md-4 me-lg-7a">
+                            NT$350
+                        </div>
+                        <div class="order-ticket-num fw-bold d-none d-md-flex align-items-center ms-auto">
+                            <div class="px-3">1</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- end Order-cards -->
+            <!-- start Orderer-info -->
+            <div class="orderer col-md-4 d-flex flex-column justify-content-md-between" data-aos="fade-left">
+                <div class="orderer-info mb-13">
+                    <h4 class="mb-5">付款資訊</h4>
+                    <div class="credit-card-box mb-5">
+                        <label for="credit-card" class="font-16 mb-1">信用卡帳號</label>
+                        <input type="text" id="credit-card" placeholder="Xxxx-xxxx-xxxx-xxxx" class="font-16">
+                    </div>
+                    <div class="expiry-date-box mb-5">
+                        <label for="expiry-date" class="font-16 mb-1">有效日期</label>
+                        <input type="text" id="expiry-date" placeholder="(MM/YY)" class="font-16">
+                    </div>
+                    <div class="telphone-box mb-5">
+                        <label for="tel" class="font-16 mb-1">有效日期</label>
+                        <input type="tel" id="tel" placeholder="請輸入電話" class="font-16">
+                    </div>
+                    <div class="pin-box">
+                        <label for="pin" class="font-16 mb-1">安全碼</label>
+                        <input type="password" id="pin" value="***" class="font-16 mb-1">
+                    </div>
+                </div>
+                <div class="price-describe mb-8 mb-md-0">
+                    <div class="subtotal d-flex justify-content-between align-items-center mb-1a">
+                        <div class="font-16 fw-bold">小計</div>
+                        <div class="total-price font-16">NT$1050</div>
+                    </div>
+                    <div class="coupon-num d-flex justify-content-between align-items-center mb-1a">
+                        <div class="font-16 fw-bold">折扣</div>
+                        <div class="total-price font-16">-NT$50</div>
+                    </div>
+                    <div class="total d-flex justify-content-between align-items-center ">
+                        <div class="fw-bold">總金額</div>
+                        <div class="fw-bold">NT$1000</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end Orderer-info -->
+        </div> 
+        <!-- end Content -->
+        <!-- start Btn -->
+        <div class="order-btn-group row d-flex justify-content-between align-items-end">
+            <div class="back col-6 col-md-2 mb-10" data-aos="fade-right" data-aos-offset="0">
+                <a href="list-2.html" class="btn-back btn btn-outline-secondary font-16 ">返回</a>
+            </div>
+            <div class="next col-6 col-md-4 mb-10" data-aos="fade-left" data-aos-offset="0">    
+                <a href="list-4.html" class="next-btn btn btn-primary">下一步</a>
+            </div>
+        </div>  
+        <!--end Btn  -->
+    </div>
+    
+</div>
+<!-- end Main -->

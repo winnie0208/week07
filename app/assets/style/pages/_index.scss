@@ -1,0 +1,96 @@
+//*banner*// 
+.banner{
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding: 254px 15px 80px 15px;
+}
+.banner a{
+  width: 48%;
+}
+@media (min-width:375px) {
+  .banner{
+    padding: 254px 67px 80px 67px; 
+  }
+}
+@media (min-width:576px) {
+  .banner a{
+    width: 160px;
+  }
+}
+@media(min-width:768px){
+  .banner{
+    padding:167px 180px;  
+  }
+}
+//*expo-card*// 
+.expo-image{
+  height: 345px;
+}
+.expo-1{
+  background-image: url(../images/expo1.jpg);
+}
+.expo-2{
+  background-image: url(../images/expo2.jpg);
+}
+.expo-3{
+  background-image: url(../images/expo3.jpg);
+}
+.expo-info p{
+  min-height: 120px;
+}
+.expo-card-fb{
+  width: 39px;
+}
+.expo-title-icon{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media(min-width:768px){
+  .expo-image{
+    height: inherit;
+  }
+}
+//*live-card* //
+.live-card{
+  background-image: url(../images/people2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: inherit;
+}
+.live-info{
+  background: #190014CC;
+}
+.live-title{
+  font-size: 28px;
+  line-height: 48px;
+}
+.live-title::before{
+  content: '開幕對談';
+  border-right: 1px solid $white;
+  padding-right: 12px;
+  margin-right: 12px;
+}
+.speaker-photo{
+  background-image: url(../images/people.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 128px;
+  height: 128px;
+}
+.live-info p{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+@media(min-width:768px){
+  .live-info p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

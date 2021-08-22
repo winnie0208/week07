@@ -1,0 +1,19 @@
+.design-expo-group{
+    width: 100%;
+}
+.design-expo-card{
+    width: 100%;   
+}
+.design-expo-title{
+    font-size: 28px;
+    line-height: 42px;
+}
+.design-expo-image{
+    height: 285px;
+}
+@media(min-width:992px){
+    .design-expo-title{
+        font-size: 36px;
+        line-height: 54px;
+    }
+}
